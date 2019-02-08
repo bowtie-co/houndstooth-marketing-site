@@ -1,0 +1,28 @@
+{% for block in page.blocks %}
+<div class="row features-row">
+    <div class="feature-block-image col-md-6 col-lg-5">
+      {% if block.img_path %}
+        <img src="{{ block.img_path }}"/>
+        {% else %}
+        <div class="d-flex align-items-center justify-content-between">
+          <div>
+            <img src="{{ block.img_path_1 }}"/>
+          </div>
+          <div>
+            <img src="{{ block.img_path_2 }}"/>
+          </div>
+          <div>
+            <img src="{{ block.img_path_3 }}"/>
+          </div>
+        </div>
+        {% endif%} 
+    </div>
+    <div class="feature-block-copy col-md-6 col-lg-7 text-left">
+      <div class="inner">
+        <h2>{{ block.title }}</h2>
+        <p>{{ block.copy }}</p>
+        <a href="{{ block.button_link }}"><button class="btn btn-green">{{ block.button_text }}</button></a>
+      </div>
+    </div>
+</div>
+{% endfor %}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% include head.html %}
+<body>
+  <div id="wrapper" class="">
+    <div id="error-page">
+        {% include header.html %}
+      <div class="{{page.layout}}">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+  {% include subfooter.html %}
+  {% include tracking.html %}
+</body>
