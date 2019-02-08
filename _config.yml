@@ -47,7 +47,7 @@ bowtietheme:
     linkedin: company/bowtie/ # (e.g. 'company/bowtie')
     youtube: #channel/UCovWO5keLOLcLu8WdO-ABJw # (e.g. 'channel/UCovWO5keLOLcLu8WdO-ABJw')
 
-collections_dir: collections
+collections_dir: content
 
 collections:
   sections:
