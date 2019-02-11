@@ -3,81 +3,67 @@
   <section {% if section.style.id %}id="{{section.style.id}}"{% endif %} class="{{section.style.class }}" >
     {% include section-background.html %}
     <a name="{{section.style.id}}"></a>
-    <div {% unless section.style.container == false %}class="container"{% endunless %}>
-    {% if section.head.vert-title %}<div class="section-vert-title"><h5>{{section.head.vert-title}}</h5></div>{% endif %}
-
+    <div {% if section.style.container == true %}class="container box"{% else %}class="container"{% endif %}>
     {% if section.head.title or section.head.img_path %}
     <div class="section-header">
-
     {% if section.head.img_path %}
       <div class="header-wrapper">
-
-      <div class="img-wrapper" style="margin-right: 1em;">
-        <img class="img-responsive img" alt="" src="{{ section.head.img_path }}"></img>
-      </div>
-      {% if section.head.subtitle %}
+        <div class="img-wrapper" style="margin-left: 1em;">
+          <img class="img-responsive img" alt="" src="{{ section.head.img_path }}">
+        </div>
+      {% if section.head.subtitle_text %}
         {% if forloop.first == true %}
         <div class="text-wrapper">
-        <h1 {% if section.head.color == 'white' %}class="title text-white"{% else %} class="title" {% endif %}>{{ section.head.title }}</h1>
-        {% else %}
-        <h2 class="title text-center"><span class="underlined">{{ section.head.title }}</span></h2>
-        {% endif %}
-        {% if forloop.first == true %}
-        <h3 class="subtitle">{{ section.head.subtitle }}</h3>
-        {% else %}
-        <h3 class="subtitle">{{ section.head.subtitle }}</h3>
-        {% endif %}
+          <h1 {% if section.head.color == 'white' %}class="title text-white"{% else %} class="title" {% endif %}>{{ section.head.title }}</h1>
+          {% else %}
+          <h2 class="title text-center"><span class="underlined">{{ section.head.title }}</span></h2>
+          {% endif %}
+          {% if forloop.first == true %}
+          <h3 class="subtitle">{{ section.head.subtitle_text }}</h3>
+          {% else %}
+          <h3 class="subtitle">{{ section.head.subtitle_text }}</h3>
+          {% endif %}
         </div>
       {% elsif section.head.title %}
         {% if forloop.first == true %}
         <div class="text-wrapper">
           <h1 {% if section.head.color == 'white' %}class="title text-white"{% else %} class="title" {% endif %}>{{ section.head.title }}</h1>
-        {% else %}
-        <h2 class="title text-center"><span class="underlined">{{ section.head.title }}</span></h2>
-        {% endif %}
+          {% else %}
+          <h2 class="title text-center"><span class="underlined">{{ section.head.title }}</span></h2>
+          {% endif %}
         </div>
       {% endif %}
       </div>
     {% else %}
 
-      {% if section.head.subtitle %}
+      {% if section.head.subtitle_text %}
         {% if forloop.first == true %}
-        {% if section.head.pretitle == true %}
-        <h5>{{site.doctor.practicename}}</h5>
-        {% else %}
-        {% endif %}
         <div class="row d-flex justify-content-center" >
-            <div class="col-12 col-md-10">
-        <h1 class="title">{{ section.head.title }}</h1>
-      </div>
-    </div>
+          <div class="col-12 col-md-10">
+            <h1 class="title">{{ section.head.title }}</h1>
+          </div>
+        </div>
         {% else %}
         <h2 class="title text-center"><span class="underlined">{{ section.head.title }}</span></h2>
         {% endif %}
         {% if forloop.first == true %}
         <div class="row d-flex justify-content-center" >
           <div class="col-11 col-md-10 col-lg-9">
-            <h2 class="subtitle test">{{ section.head.subtitle }}</h2>
+            <h2 class="subtitle test">{{ section.head.subtitle_text }}</h2>
           </div>
         </div>
         {% else %}
-        <h3 class="subtitle">{{ section.head.subtitle }}</h3>
+        <h3 class="subtitle">{{ section.head.subtitle_text }}</h3>
         {% endif %}
       {% elsif section.head.title %}
         {% if forloop.first == true %}
-        {% if section.head.pretitle == true %}
-        <h5>{{site.doctor.practicename}}</h5>
-        {% else %}
-        {% endif %}
         <h1 class="title">{{ section.head.title }}</h1>
         {% else %}
         <h2 class="title text-center"><span class="underlined">{{ section.head.title }}</span></h2>
         {% endif %}
-
       {% endif %}
       </div><!-- end section head -->
     {% endif %}
-
 
   {% endif %}
     <div class="content section-content">

@@ -5,3 +5,5 @@
 layout: home
 published: false
 ---
+
+{% include section.html location="home" %}
