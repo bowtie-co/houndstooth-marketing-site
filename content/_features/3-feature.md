@@ -5,5 +5,6 @@ description_text: " is perfect for technical products/services that need a bit o
 icon:
   img_path:
   fa: 'fa-globe'
+  icon_color: 
 
 ---

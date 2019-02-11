@@ -12,7 +12,7 @@
         {% if item.icon.img_path %}
           <i><img src="{{ item.icon.img_path }}" alt="{{ item.title }}"/></i>
         {% elsif item.icon.fa %}
-          <i class="fa {{ item.icon.fa }}"></i>
+          <i class="fa {{ item.icon.fa }}" style="{% if item.icon.icon_color %}color: {{item.icon.icon_color}};{% endif %}"></i>
         {% endif %}
         <h3 class="title">{{ item.title }}</h3>
         </div>
