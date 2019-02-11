@@ -62,6 +62,12 @@ font-weight:$primary-font-weight !important;
 color:$primary-font-color !important;
 }
 
+section .container.box {
+	background: #fff;
+	width: 94%;
+	max-width: 900px;
+	padding: 30px 60px;
+}
 /// new section overrides
 
 section {
