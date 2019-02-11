@@ -1,0 +1,14 @@
+<ul class="nav navbar-nav">
+    {% for page in site.pages %}
+      {% unless page.exclude_from_nav %}
+        {% if page.title %}
+        <li>
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        </li>
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+        <li class="sign-in">
+          <a class="page-link" href="github redirect here">Login</a>
+        </li>
+  </ul>

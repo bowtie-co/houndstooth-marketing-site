@@ -8,12 +8,14 @@
     {% endif %}
     <div class="feature col-sm-4">
         <div class="inner outline">
+        <div class="d-flex align-items-start justif-centent-start">
         {% if item.icon.img_path %}
           <i><img src="{{ item.icon.img_path }}" alt="{{ item.title }}"/></i>
         {% elsif item.icon.fa %}
           <i class="fa {{ item.icon.fa }}"></i>
         {% endif %}
         <h3 class="title">{{ item.title }}</h3>
+        </div>
         <h4 class="sub-title">{{ item.subtitle }}</h4>
         <p>{{ item.description_text }}</p>
       </div>
