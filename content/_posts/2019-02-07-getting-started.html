@@ -1,257 +1,103 @@
 ---
 layout: post
-title:  "Using Houndstooth"
-subtitle: How to use Jekyll collections to build a custom CMS for clients and non-technical editors.
-date:   2019-02-07 16:36:32 -0700
+title: Using Houndstooth
+subtitle: >-
+  How to use Jekyll collections to build a custom CMS for clients and
+  non-technical editors.
+date: '2019-02-07 16:36:32 -0700'
 permalink: /getting-started/
 masthead:
   img_path: false
   pat_path: /img/backgrounds/gridbg.png
 author: chad
 categories:
-- help
+  - help
 tags:
-- Static Websites
-- Jekyll
-- Getting Started
-- Using Houndstooth
+  - Static Websites
+  - Jekyll
+  - Getting Started
+  - Using Houndstooth
 elsewhere:
-  name:
-  url:
+  name: null
+  url: null
 seo:
-  title: 'Build a Custom Jekyll CMS with Collections'
+  title: Build a Custom Jekyll CMS with Collections
 comments: false
 share: true
 
 ---
-
-The Collection Editor allows you to create, modify, or remove content on your project site from any browser. It's ideal for content that changes often, marketing content and blog posts, and content with a similar format that is frequently repeated.
-
-We've also made it easy for developers and designers to customize the editing interface for clients and non-technical collaborators. This guide will show you how to do both.
-
-## How it Works
-
-The editor will detect any valid collection defined in your site `_config.yml` file and make it editable from your BowTie dashboard. Markdown files can be modified using an intuitive markdown editor. Or, you can use the collection editor to create and edit templated content using a form-based interface.
-
-Changes made in your browser are saved as git commits, and will trigger a new site build on the BowTie server, making it easy to collaborate with less technical users while maintaining a git workflow.
-
-There are two editing modes, for markdown and form-based content:
-
-#### Markdown Editor
-![BowTie Markdown Editor](/img/BowTie_markdown-editor.jpg)
-
-&nbsp;
-
-
-#### Form Editor
-![BowTie Markdown Editor](/img/BowTie_collection-editor.jpg)
-
-&nbsp;
-
-
-### Getting Started:
-
-In order to use this feature, your site must be made with Jekyll and use Jekyll collection objects (including posts). If you started from a BowTie template, collection-based content will be present by default.
-
-
-**Step 1: Defining a Collection**
-
-To define a collection, include it in your `_config.yml` as shown below. For more information on Jekyll collections, see their docs.
-
-    collections:
-      lander-1-col:
-        output: true
-      services:
-        output: false
-
-Once a collection has been defined, it will appear in the BowTie dashboard similar to 'Features' as seen above.
-
-
-&nbsp;
-
-**Step 2: Set up the form defaults**
-
-Building a custom form for content or post front matter is easy. The collection editor will generate a dynamic form from a `_fields.md` file in the root of the collection. Entry type and defaults are specified in yaml front matter. You can configure the form for strings, dates, timestamps, file uploads, color pickers, and more.
-
-
-#### Example '_fields.md' File
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">The Collection Editor allows you to create, modify, or remove content on your project site from any browser. It's ideal for content that changes often, marketing content and blog posts, and content with a similar format that is frequently repeated.</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">We've also made it easy for developers and designers to customize the editing interface for clients and non-technical collaborators. This guide will show you how to do both.</span></p>
+<h2 dir="ltr" style="line-height: 1.2; margin-top: 18pt; margin-bottom: 12pt; margin-left: -15pt; border-bottom: solid #eaecef 0.75pt; padding: 0pt 0pt 5.1pt 0pt;"><span style="font-size: 17pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">How it Works</span></h2>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">The editor will detect any valid collection defined in your site </span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">_config.yml</span><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> file and make it editable from your Houndstooth dashboard. Markdown files can be modified using an intuitive markdown editor. Or, you can use the collection editor to create and edit templated content using a form-based interface.</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Changes made in your browser are saved as git commits, and will trigger a new site build on the Houndstooth server, making it easy to collaborate with less technical users while maintaining a git workflow.</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">There is one editing mode for markdown:</span></p>
+<h4 dir="ltr" style="line-height: 1.2; margin-top: 18pt; margin-bottom: 12pt; margin-left: -15pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Markdown Editor</span></h4>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: 'Ek Mukta'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><img style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" src="https://lh5.googleusercontent.com/4esjpSg-n6FbtXuVj1s955Er4Fey2mL69gDo42_XF8qyoSy5hlencPjZxtD9VC6w56vaM8R7x9bPsAL1n1AZ6vu52uVtP8Z2SnJGNMMeGIW-WWnTXE6OfjXVt8svjC7C4vv7Slpa" width="624" height="421" /></span></p>
+<p><strong id="docs-internal-guid-cfecad67-7fff-1202-029d-b51b317533bc" style="font-weight: normal;">&nbsp;</strong></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;">&nbsp;</p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 16.5pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Getting Started:</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">In order to use this feature, your site must be made with Jekyll and use Jekyll collection objects (including posts). </span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Step 1: Defining a Collection</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">To define a collection, include it in your </span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">_config.yml</span><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> as shown below. For more information on Jekyll collections, </span><a style="text-decoration: none;" href="https://jekyllrb.com/docs/collections/"><span style="font-size: 12pt; font-family: Arial; color: #1155cc; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: underline; -webkit-text-decoration-skip: none; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;">see their docs.</span></a></p>
+<p dir="ltr" style="line-height: 1.74; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">collections:</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;lander-1-col:</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;output: true</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;services:</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;&nbsp;&nbsp;output: false</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /><br /></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Once a collection has been defined, it will appear in the Houndstooth dashboard.</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Step 2: Set up the form defaults</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Building a custom form for content or post front matter is easy. The collection editor will generate a dynamic form from a </span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">_fields.md</span><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> file in the root of the collection. Entry type and defaults are specified in yaml front matter. You can configure the form for strings, dates, timestamps, file uploads, color pickers, and more.</span></p>
+<h4 dir="ltr" style="line-height: 1.2; margin-top: 18pt; margin-bottom: 12pt; margin-left: -15pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Example '_fields.md' File</span></h4>
+<p dir="ltr" style="line-height: 1.74; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">name: null</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">members_only: true</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">date:</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">ending_on:</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">starting_at:</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">featured_img_path:</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">header_color:</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Add text or liquid includes here.</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /><br /></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;">&nbsp;</p>
+<h4 dir="ltr" style="line-height: 1.2; margin-top: 18pt; margin-bottom: 12pt; margin-left: -15pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Generated Form:</span></h4>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><img style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" src="https://lh5.googleusercontent.com/reySS5wcVS7mXDHA9iX0SqbjwEcantPgf-8eeNDUR31lJFN4RmzEe__FyzDevFLg4XJDieLGorC7WHM6SgLVFlhH0YHqwes9JwnJzs8Lomyd8zyndU_ejR8rip5jw3gVBRzLNxKo" width="624" height="428" /></span><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> Each form field is defined from a key/value pair in the front matter of the </span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">_fields.md</span><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> file. Read on for a full list of options.</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Step 3. Provide Access</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">If you are providing access to a client or collaborator, please add the person to your GitHub repo and then visit the &ldquo;Users&rdquo; page found on the left sidebar to view the users and access type. </span></p>
+<h3 dir="ltr" style="line-height: 1.2; margin-top: 18pt; margin-bottom: 12pt; margin-left: -15pt;"><span style="font-size: 16.5pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Field conventions:</span></h3>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Any text you enter as a value in the </span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">_fields.md</span><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> file will be used as a default. We recommend wrapping text in quotes (e.g. "Jack Dorsey"). A blank value, or the use of 'null' will render the option null.</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">_Keys unique to a collection item and not present in the </span><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: italic; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">fields.md will only appear in new items cloned from the item containing the unique values.</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Strings:</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Most key/value pairs will render simple string variables you can use in your templates (e.g. name: "value" ). This will produce a text input in your form:</span></p>
+<p dir="ltr" style="line-height: 1.74; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">name: "Jack Dorsey"</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">address: null</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /><br /></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><img style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" src="https://lh6.googleusercontent.com/2SEbNoK1LGxzS_czBWqar7b_lAt5low6pzDAllqLYhFQuhicTwxM39YxtssgBls-z8Oip2IRPLBgsee9RfA05TMtZT6Ko3avhRSAp9JfGTKTx0E9j-9iLVmK5rYZOYWoDaeQaLfO" width="624" height="317" /></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;">&nbsp;</p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Array:</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">To produce an editable array of strings, simply nest the variables in your front matter as show below. This will output an editable list of variables in the form:</span></p>
+<p dir="ltr" style="line-height: 1.74; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">categories:</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;- Hello World</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> &nbsp;- BowTie</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /><br /></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><img style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" src="https://lh4.googleusercontent.com/ZomovRpEofmddXei_j_DyrtneXWjob9z6lyHM5pHD9Wm8js3nyyU88SARAZIE8uUBHG3GBW6XQDzb6IZsMhA7FAObGx82CqkABu6gk3McgzN9T9ArHohsPEcgkgQQMZjJIwr5K1W" width="624" height="455" /></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Boolean values:</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Adding a value of &lsquo;true&rsquo; or &lsquo;false&rsquo; following the key in the yaml will produce a checkbox.</span></p>
+<p dir="ltr" style="line-height: 1.74; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">pattern: false</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">parallax: true</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /><br /></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><img style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" src="https://lh5.googleusercontent.com/hCdvVRUQgmWH3JhWUuLcrpkn3DP-A3ASFzTLV9lynI3QiGoE0DP01dX7Tyy9BICyif-omM4e8A08_c0QxRIsNK0HdCS_IkFHSOOOxlwQEHW3FdvVDBOostyIALQSSm8hhhhOHYyo" width="224" height="254" /></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;">&nbsp;</p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Date entry:</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Using a key of &lsquo;date:&rsquo;, or appending &lsquo;_on&rsquo; to the end of a key will add a datepicker to the form. Additionally, using &lsquo;date:&rsquo; as a key value will add a time-stamp entry field. Using &lsquo;_on&rsquo; alone will produce the datepicker only (e.g. registered_on: "" ).</span></p>
+<p dir="ltr" style="line-height: 1.74; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">date:</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /><br /></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><img style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" src="https://lh3.googleusercontent.com/tHSZNtSbxnUSe4saFCaDFCj9eYWOolOboaMYSfmoRZkz_zJkLMDsDCvSe3z4hMoyQ6a0JXAD0WjA_8PBlThZ5a0ehHsxl2vJoVUgtTEiCLRTVZn4NI-EBiMleIVoKEgaX1C7Tyt9" width="624" height="559" /></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;">&nbsp;</p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Time:</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Appending &lsquo;_at:&rsquo; to the end of a key will create a time selector (e.g. starting_at: "").</span></p>
+<p dir="ltr" style="line-height: 1.74; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">start-time_at:</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /><br /></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><img style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" src="https://lh5.googleusercontent.com/8F5X5TLGB8Ete9JEbjQwsWifV1pYa3B8WoodTtM5i77whxgA0KH3ULBkhfd7GHfK6GStB5qqCsb4e6WbHxXRxzi-AENSwceYLtahVzODtzssJ2LTPJjuofahbNL3KfDdx1CWw4ZM" width="624" height="484" /></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">File uploads:</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">If you want to produce a file upload interface, append &lsquo;_path&rsquo; to the key value (e.g. featured_img_path: "" ). This will provide a file upload interface.</span></p>
+<p dir="ltr" style="line-height: 1.74; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">avatar_path:</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /><br /></span></p>
+<p><strong style="font-weight: normal;">&nbsp;</strong></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Image files will generate a preview:</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><img style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" src="https://lh3.googleusercontent.com/P2iXI-RDHUCwCj4L906oFBL7O8pQO8k8Ke3c6aKWBqcrAMsT-UH4pcIqWnPUTgNxnkYxe5T91AeRAhg2i2hvswKgq6CND8jyrFa4e2CzXmqvMbNuNmnh1GEXMVO8NJsQZKaXy57f" width="482" height="712" /></span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;">&nbsp;</p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Color picker:</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">To provide a color picker interface in your form append &lsquo;_color:&rsquo; to your the key (e.g. header_color: "" ). Selections are returned as six character hex values.</span></p>
+<p dir="ltr" style="line-height: 1.74; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">section_color:</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /></span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">---</span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br /><br /></span></p>
+<p dir="ltr" style="line-height: 1.74; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #f6f8fa; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><img style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" src="https://lh4.googleusercontent.com/d1HhzU5x5E9UrcAS9wnOCkOt9HvFysvfnxmMbsH3juiuA6SvlujiSb3JUuIUahHHMO55dMN3MPRsjT9VuFi1vCBT1bJahH3dxRu3YOJgiQKz0Y0kYOLZqApa6NWUeX-gEXdwVp1o" width="492" height="630" /></span></p>
+<p><strong style="font-weight: normal;">&nbsp;</strong></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: #ffff00; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">NEED TO ADD TEXT fields (using _content or _body or &lsquo;text&rsquo; )</span></p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;">&nbsp;</p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<h2 dir="ltr" style="line-height: 1.2; margin-top: 18pt; margin-bottom: 12pt; margin-left: -15pt; border-bottom: solid #eaecef 0.75pt; padding: 0pt 0pt 5.1pt 0pt;"><span style="font-size: 17pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Other Editing Options:</span></h2>
+<h3 dir="ltr" style="line-height: 1.2; margin-top: 18pt; margin-bottom: 12pt; margin-left: -15pt;"><span style="font-size: 16.5pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Working locally</span></h3>
+<p>&nbsp;</p>
+<p dir="ltr" style="line-height: 1.656; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Houndstooth allows you to work locally using the editor of your choice. Simply clone your repo and push commits via git. You can also install our local client by running </span><span style="font-size: 10pt; font-family: 'Courier New'; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">$ gem install bowtie-io</span><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">. For more information check out our getting started guide.</span></p>
+<p><span style="font-size: 12pt; font-family: Arial; color: #24292e; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">&nbsp;</span></p>
 <!-- this -->
-    ---
-    name: null
-    members_only: true
-    date:
-    ending_on:
-    starting_at:
-    featured_img_path:
-    header_color:
-    ---
-    Add text or liquid includes here.
-<!-- this -->
-&nbsp;
-
-#### Generated Form:
-
-![BowTie Markdown Editor](/img/BowTie_collection-editor.jpg)
-&nbsp;
-Each form field is defined from a key/value pair in the front matter of the `_fields.md` file. Read on for a full list of options.
-
-
-**Step 3. Provide Access**
-
-If you are providing access to a client or collaborator, visit the *Team* page found in 'Settings' > 'Team' and enter your collaborator's email address in the 'Add Team Member' field.
-
-New team members will receive an email invitation, and now see your project listed in their project drop down*. Collaborators do not need to register an SSH key if they're only working with the collection editor.
-
-#### Add a Contributor
-
-![Add a BowTie contributor](/img/bowtie-contributor-add.jpg "Add a BowTie contributor")
-
-
-_*If the email address you attempt to share your project is not connected to an active BowTie project, the 'Add User' button will not appear. Shared projects do not count against your total available project count (set by your BowTie subscription plan)_.
-
-<a name="fields"></a>
-
-&nbsp;
-
-
-### Field conventions:
-
-Any text you enter as a value in the `_fields.md` file will be used as a default. We recommend wrapping text in quotes (e.g. "Jack Dorsey"). A blank value, or the use of 'null' will render the option null.
-
-_Keys unique to a collection item and not present in the _fields.md will only appear in new items cloned from the item containing the unique values._
-
-
-**Strings:**
-
-Most key/value pairs will render simple string variables you can use in your templates (e.g. name: "value" ). This will produce a text input in your form:
-```
-    ---
-    name: "Jack Dorsey"
-    address: null
-    ---
-```
-!["BowTie form editor - string"](/img/bowtie-form-editor-string.jpg)
-
-&nbsp;
-
-
-**Array:**
-
-To produce an editable array of strings, simply nest the variables in your front matter as show below. This will output an editable list of variables in the form:
-```
-    ---
-    categories:
-      - Hello World
-      - BowTie
-    ---
-```
-![BowTie form editor - array](/img/bowtie-form-editor-array.jpg)
-
-
-&nbsp;
-
-
-
-**Boolean values:**
-
-Adding a value of ‘true’ or ‘false’ following the key in the yaml will produce a checkbox.
-```
-    ---
-    pattern: false
-    parallax: true
-    ---
-```
-!["BowTie form editor - boolean"](/img/bowtie-form-editor-boolean.jpg)
-
-&nbsp;
-
-**Date entry:**
-
-Using a key of ‘date:’, or appending ‘_on’ to the end of a key will add a datepicker to the form. Additionally, using ‘date:’ as a key value will add a time-stamp entry field. Using ‘_on’ alone will produce the datepicker only (e.g. registered_on: "" ).
-
-```
-    ---
-    date:
-    ---
-```
-!["BowTie form editor - date"](/img/bowtie-form-editor-date.jpg)
-
-&nbsp;
-
-**Time:**
-
-Appending ‘_at:’ to the end of a key will create a time selector (e.g. starting_at: "").
-
-
-```
-    ---
-    start-time_at:
-    ---
-```
-!["BowTie form editor - time"](/img/bowtie-form-editor-time.jpg)
-
-
-**File uploads:**
-
-If you want to produce a file upload interface, append ‘_path’ to the key value  (e.g. featured_img_path: "" ). This will provide a file upload interface.
-
-```
-    ---
-    avatar_path:
-    ---
-```
-!["BowTie form editor - file upload"](/img/bowtie-form-editor-file-upload.jpg)
-
-Image files will generate a preview:
-
-!["BowTie form editor - file upload"](/img/bowtie-form-editor-img-preview.jpg)
-
-&nbsp;
-
-**Color picker:**
-
-To provide a color picker interface in your form append ‘_color:’ to your the key (e.g. header_color: "" ). Selections are returned as six character hex values.
-
-```
-    ---
-    background_color:
-    ---
-```
-!["BowTie form editor - colorpicker"](/img/bowtie-form-editor-colorpicker.jpg)
-
-&nbsp;
-
-
-
----
-
-
-
-## Other Editing Options:
-
-### Working locally
-
-BowTie allows you to work locally using the editor of your choice. Simply clone your repo and push commits via git. You can also install our local client by running `$ gem install bowtie-io`. For more information check out our [getting started guide](/help/getting-started-with-bowtie/).
-
-&nbsp;
-
-### Admin Editor
-If you need full cloud access to your project’s BowTie repo, consider installing and using the [Prose editor](/help/prose-io-for-an-admin-interface/) in your frontend.
-
-!["BowTie Prose admin interface"](/img/prose-io-for-an-admin-interface/prose.png)
-
-&nbsp;
-
-Registered Users can access the admin editor by adding your project’s secret key to their browser profile. To install the key download this [Admin Authorization plugin](https://github.com/bowtie-io/Admin-Authorization-Plugin), or follow the directions in our Prose guide.
-
-**Tips for using Prose on BowTie:**
-
-1. Use ‘null’ to represent empty values when defining fields.
-1. Don’t use comments in the front matter (e.g. ‘# this is a comment’ )
-1. Prose allows you to restrict access to specific parts of the project’s repository. You can configure this in your `_config.yml` as shown below:
-
-#### Restricting access in Prose
-
-!["BowTie Prose editor configuration"](/img/bowtie-prose-editor-config.jpg)
-
-For more information on configuring the Prose editor, see [their docs](https://github.com/prose/prose/wiki/Prose-Configuration).
+<p>&nbsp;</p>
