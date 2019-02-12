@@ -7,17 +7,19 @@
 <div class="row features clearfix">
     {% endif %}
     <div class="feature col-sm-4">
-        <div class="inner outline">
-        <div class="d-flex align-items-start justif-centent-start">
+        <div class="inner outline d-flex align-items-start justify-content-start">
+        <div style="margin-right:10px;">
         {% if item.icon.img_path %}
           <i><img src="{{ item.icon.img_path }}" alt="{{ item.title }}"/></i>
         {% elsif item.icon.fa %}
           <i class="fa {{ item.icon.fa }}" style="{% if item.icon.icon_color %}color: {{item.icon.icon_color}};{% endif %}"></i>
         {% endif %}
-        <h3 class="title">{{ item.title }}</h3>
         </div>
-        <h4 class="sub-title">{{ item.subtitle }}</h4>
-        <p>{{ item.description_text }}</p>
+        <div class="">
+          <h3 class="title">{{ item.title }}</h3>
+          <h4 class="sub-title">{{ item.subtitle }}</h4>
+          <p>{{ item.description_text }}</p>
+        </div>
       </div>
     </div>
   {% endfor %}
