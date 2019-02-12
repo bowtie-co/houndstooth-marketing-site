@@ -75,7 +75,7 @@ Building a custom form for content or post front matter is easy. The collection 
 
 
 #### Example '_fields.md' File
-
+```
     ---
     name: null
     members_only: true
@@ -86,7 +86,7 @@ Building a custom form for content or post front matter is easy. The collection 
     header_color:
     ---
     Add text or liquid includes here.
-
+```
 &nbsp;
 
 #### Generated Form:
@@ -124,12 +124,12 @@ _Keys unique to a collection item and not present in the _fields.md will only ap
 **Strings:**
 
 Most key/value pairs will render simple string variables you can use in your templates (e.g. name: "value" ). This will produce a text input in your form:
-
+```
     ---
     name: "Jack Dorsey"
     address: null
     ---
-
+```
 !["BowTie form editor - string"](/img/bowtie-form-editor-string.jpg)
 
 &nbsp;
@@ -138,13 +138,13 @@ Most key/value pairs will render simple string variables you can use in your tem
 **Array:**
 
 To produce an editable array of strings, simply nest the variables in your front matter as show below. This will output an editable list of variables in the form:
-
+```
     ---
     categories:
       - Hello World
       - BowTie
     ---
-
+```
 ![BowTie form editor - array](/img/bowtie-form-editor-array.jpg)
 
 
@@ -155,12 +155,12 @@ To produce an editable array of strings, simply nest the variables in your front
 **Boolean values:**
 
 Adding a value of ‘true’ or ‘false’ following the key in the yaml will produce a checkbox.  
-
+```
     ---
     pattern: false
     parallax: true
     ---
-
+```
 !["BowTie form editor - boolean"](/img/bowtie-form-editor-boolean.jpg)
 
 &nbsp;
@@ -169,11 +169,11 @@ Adding a value of ‘true’ or ‘false’ following the key in the yaml will p
 
 Using a key of ‘date:’, or appending ‘_on’ to the end of a key will add a datepicker to the form. Additionally, using ‘date:’ as a key value will add a time-stamp entry field. Using ‘_on’ alone will produce the datepicker only (e.g. registered_on: "" ).
 
-
+```
     ---
     date:
     ---
-
+```
 !["BowTie form editor - date"](/img/bowtie-form-editor-date.jpg)
 
 &nbsp;
@@ -183,11 +183,11 @@ Using a key of ‘date:’, or appending ‘_on’ to the end of a key will add 
 Appending ‘_at:’ to the end of a key will create a time selector (e.g. starting_at: "").
 
 
-
+```
     ---
     start-time_at:
     ---
-
+```
 !["BowTie form editor - time"](/img/bowtie-form-editor-time.jpg)
 
 
@@ -195,11 +195,11 @@ Appending ‘_at:’ to the end of a key will create a time selector (e.g. start
 
 If you want to produce a file upload interface, append ‘_path’ to the key value  (e.g. featured_img_path: "" ). This will provide a file upload interface.
 
-
+```
     ---
     avatar_path:
     ---
-
+```
 !["BowTie form editor - file upload"](/img/bowtie-form-editor-file-upload.jpg)
 
 Image files will generate a preview:
@@ -212,11 +212,11 @@ Image files will generate a preview:
 
 To provide a color picker interface in your form append ‘_color:’ to your the key (e.g. header_color: "" ). Selections are returned as six character hex values.
 
-
+```
     ---
     background_color:
     ---
-
+```
 !["BowTie form editor - colorpicker"](/img/bowtie-form-editor-colorpicker.jpg)
 
 &nbsp;
@@ -257,4 +257,3 @@ Registered Users can access the admin editor by adding your project’s secret k
 For more information on configuring the Prose editor, see [their docs](https://github.com/prose/prose/wiki/Prose-Configuration).
 
 
-{% include post-links.html %}
