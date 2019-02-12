@@ -5,6 +5,6 @@ description_text: "Houndstooth uses the GitHub API to connect directly to your p
 icon:
   img_path:
   fa: 'fa-edit'
-  icon_color:
+  icon_color: '#D0021B'
 
 ---

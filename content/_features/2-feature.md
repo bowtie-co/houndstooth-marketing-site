@@ -5,6 +5,6 @@ description_text: "Premia is perfect for technical products/services that need a
 icon:
   img_path:
   fa: 'fa-code'
-  icon_color: red
+  icon_color: '#D0021B'
 
 ---

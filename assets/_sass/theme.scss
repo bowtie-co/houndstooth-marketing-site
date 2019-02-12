@@ -8,7 +8,11 @@
 
 /***** your custom styles ****/
 
-
+#hero {
+	h3.subtitle {
+		font-weight: 300;
+	}
+}
 /***** theme variables below this line ****/
 
 html {
@@ -62,8 +66,8 @@ h2, .h2 {
 }
 
 .h3, h3 {
-	font-size: 1.1em !important;
-	font-weight: 600 !important;
+	font-size: 1.1em;
+	font-weight: 600;
 	font-style: bold;
 }
 
