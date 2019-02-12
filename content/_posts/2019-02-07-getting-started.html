@@ -75,7 +75,7 @@ Building a custom form for content or post front matter is easy. The collection 
 
 
 #### Example '_fields.md' File
-```
+{% comment %}
     ---
     name: null
     members_only: true
@@ -86,7 +86,7 @@ Building a custom form for content or post front matter is easy. The collection 
     header_color:
     ---
     Add text or liquid includes here.
-```
+{% endcomment %}
 &nbsp;
 
 #### Generated Form:
@@ -154,7 +154,7 @@ To produce an editable array of strings, simply nest the variables in your front
 
 **Boolean values:**
 
-Adding a value of ‘true’ or ‘false’ following the key in the yaml will produce a checkbox.  
+Adding a value of ‘true’ or ‘false’ following the key in the yaml will produce a checkbox.
 ```
     ---
     pattern: false
@@ -255,5 +255,3 @@ Registered Users can access the admin editor by adding your project’s secret k
 !["BowTie Prose editor configuration"](/img/bowtie-prose-editor-config.jpg)
 
 For more information on configuring the Prose editor, see [their docs](https://github.com/prose/prose/wiki/Prose-Configuration).
-
-
