@@ -6,7 +6,7 @@ head:
   img_path: null
   vert-title: null
 style:
-  id: null
+  id: this
   class: bgclear
   font_color: 'rgb(118, 10, 10)'
   media:
@@ -31,6 +31,8 @@ cta:
 ---
 
 
+
 <p>hello</p>
+
 
 
