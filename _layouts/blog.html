@@ -5,7 +5,7 @@
   {% if page.masthead.img_path %}
   <style type="text/css">
      .masthead {
-       background:url("{{ page.masthead.img_path }}") no-repeat;
+       background: url("{{ page.masthead.img_path }}") no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -17,7 +17,19 @@
       right: 0;
       top: 0;
       }
+      {% if page.masthead.overlay %}
+      .masthead:before {
+        content: '';
+      	position: absolute;
+      	top: 0;
+      	right: 0;
+      	bottom: 0;
+      	left: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9))
+      }
+      {% endif %}
   </style>
+
   {% endif %}
 
   {% if page.masthead.pat_path %}
@@ -26,6 +38,17 @@
       background:url("{{ page.masthead.pat_path }}") repeat;
       position: relative;
       }
+      {% if page.masthead.overlay %}
+      .masthead:before {
+        content: '';
+      	position: absolute;
+      	top: 0;
+      	right: 0;
+      	bottom: 0;
+      	left: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9))
+      }
+      {% endif %}
   </style>
   {% endif %}
 
@@ -34,7 +57,7 @@
     <div class="blog">
       {% include header.html %}
       <div id="content">
-        <section class="bgclear masthead {% if page.masthead.overlay %}overlay{% endif %}">
+        <section class="bgclear masthead">
           {% include post-header.html %}
         </section>
         <section>

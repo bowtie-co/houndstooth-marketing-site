@@ -5,8 +5,9 @@ subtitle:
 author: "john"
 date: "2015-02-06 15:36:37"
 masthead:
-  img_path: false
+  img_path: null
   pat_path: "/assets/images/backgrounds/bg2.jpg"
+  overlay: false
 categories:
   - "Hello World"
   - "BowTie"
