@@ -8,7 +8,7 @@ head:
 style:
   id: null
   class: bgclear
-  font_color: null
+  font_color: 'rgb(118, 10, 10)'
   media:
     img:
       url_path: null
@@ -20,7 +20,7 @@ style:
       url_path: null
       type: null
       posterurl_path: null
-  tint_color: 'rgb(206, 15, 15)'
+  tint_color: 'rgba(60, 195, 190, 0.5)'
 cta:
   headline: null
   btnText: null
@@ -30,5 +30,7 @@ cta:
 
 ---
 
+
 <p>hello</p>
+
 
