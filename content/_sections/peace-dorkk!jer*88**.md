@@ -7,7 +7,7 @@ head:
   vert-title: null
 style:
   id: null
-  class: null
+  class: bgclear
   font_color: null
   media:
     img:
@@ -29,4 +29,6 @@ cta:
   subtext: null
 
 ---
+
 <p>hello</p>
+
