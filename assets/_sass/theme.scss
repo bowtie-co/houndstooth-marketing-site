@@ -342,6 +342,95 @@ section.grey{
 }
 
 .media-wrap {
+	width: 100%;
+	z-index: -100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	overflow: hidden;
+	video, .media {
+		z-index: -99;
+		vertical-align: baseline;
+		object-fit: contain;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+	}
+	video {
+		height:100%;
+	}
+	.media-tint, .video-placeholder {
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: -98;
+		background: rgba(0,0,0,.25);
+	}
+	.media.bgoverlayLight:after {
+			content: '';
+			position: absolute;
+			width: inherit;
+			height: inherit;
+			top: 0;
+			left: 0;
+			bottom: 0;
+      right: 0;
+			height:100%;
+			background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.9));
+		}
+		.media.bgoverlayDark:after {
+			content: '';
+			position: absolute;
+			width: inherit;
+			height: inherit;
+			top: 0;
+			left: 0;
+			bottom: 0;
+      right: 0;
+			height:100%;
+			background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+		}
+}
+
+
+@media (min-aspect-ratio: 16/9) {
+	.media-wrap video .media {
+		height: 300%;
+		top: -100%;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	.media-wrap video {
+		width: 300%;
+		left: -100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.media-wrap.video {
+		background: inherit;
+		background-size: cover;
+	}
+	.media-wrap video {
+		display: none;
+	}
+	.element.image {
+		img {
+			max-width:65% !important;
+		}
+	}
+}
+
+.media-wrap {
   .media-tint, .video-placeholder {
     background: $mediatint-color;
     }
