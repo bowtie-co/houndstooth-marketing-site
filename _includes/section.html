@@ -109,8 +109,10 @@
 </section>
 
   {% if section.style.font_color %}
-    <style>
+    <script>
+      <style>
     #{{section.style.id}}, #{{section.style.id}} h1, #{{section.style.id}} p, #{{section.style.id}} h2, #{{section.style.id}} h3, #{{section.style.id}} h4, #{{section.style.id}} h5, #{{section.style.id}} i, #{{section.style.id}} .row, #{{section.style.id}} p {color:{{section.style.font_color}} !important;}
     </style>
+    </script>
   {% endif %}
 {% endfor %}
