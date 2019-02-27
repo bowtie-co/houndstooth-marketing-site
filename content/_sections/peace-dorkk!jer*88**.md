@@ -20,7 +20,7 @@ style:
       url_path: null
       type: null
       posterurl_path: null
-  tint_color: 'rgba(0,0,0,0.0)'
+  tint_color: 'rgb(206, 15, 15)'
 cta:
   headline: null
   btnText: null
