@@ -4,8 +4,8 @@
 
 <p class="post-meta">
   {% if page.author %}
-  <img class="img img-circle post-avatar pull-left" src="{% if author.avatar %}{{ author.avatar }}{% else %}https://www.gravatar.com/avatar/{{ author.gravatar }}?s=64{% endif %}" />
-  <span class="author">by {{ author.display_name }}</span>
+  <!-- <img class="img img-circle post-avatar pull-left" src="{% if author.avatar %}{{ author.avatar }}{% else %}https://www.gravatar.com/avatar/{{ author.gravatar }}?s=64{% endif %}" /> -->
+  <span class="author">{{ author.display_name }}</span>
     {% if author.twitter %}
       <span class="author-twitter"><a href="//twitter.com/{{ author.twitter }}"><i class="icon-twitter icon-1x"></i></a></span>
     {% endif %}
