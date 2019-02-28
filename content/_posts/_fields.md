@@ -2,7 +2,6 @@
 layout: "post"
 title:  "Hello World"
 subtitle:
-author: "john"
 _date: "2015-02-06 15:36:37"
 permalink:
 masthead:
