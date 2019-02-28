@@ -5,24 +5,13 @@ layout: blog
   {% assign author = site.bowtietheme.authors[page.author] %}
 {% endif %}
 
- <div class="post">
+<div class="post">
   <article class="post-content blog-post-content">
     {{ content }}
   </article>
-  <div class="post-metadata">
-    {% if page.author %}
-    by <a href="//twitter.com/{{ author.twitter }}">{{ author.display_name }}</a>
-    {% endif %}
-    {{ page.date | date: "%b %-d, %Y" }}
-    <span class="category-list">&nbsp;|&nbsp;</span>
-    {% if author.bio %}
-    <span class="authorbio">{{author.display_name}} is BowTie's {{author.bio}}</span>
-    {% endif %}
-  </div>
-  <br />
-
-  {% if page.elsewhere.name %}
-  <h6 class="elsewhere">Reposted from: <a href="{{page.elsewhere.url}}">{{ page.elsewhere.name }}</a></h6>
-  {% endif %}
-
 </div>
+<br />
+
+{% if page.elsewhere.name %}
+<h6 class="elsewhere">Reposted from: <a href="{{page.elsewhere.url}}">{{ page.elsewhere.name }}</a></h6>
+{% endif %}
