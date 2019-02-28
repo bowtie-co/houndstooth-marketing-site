@@ -7,7 +7,7 @@ posted_at:
 permalink:
 masthead:
   img_path: null
-  pat_path: "/assets/images/backgrounds/bg.png"
+  pat_path: "/assets/images/backgrounds/houndtooth-pat-dark.png"
   overlay: false
 categories:
   - "Hello World"
