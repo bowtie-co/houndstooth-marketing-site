@@ -5,7 +5,8 @@ subtitle: >-
   How to use Jekyll collections to build a custom CMS for clients and
   non-technical editors.
 author: chad
-date: '2019-02-07 16:36:32 -0700'
+_date: '2019-02-07 16:36:32 -0700'
+permalink: /docs/
 masthead:
   img_path: null
   pat_path: null
