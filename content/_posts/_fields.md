@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title:  "Hello World"
-subtitle:
+subtitle_body:
 _date: "2015-02-06 15:36:37"
 permalink:
 masthead:
