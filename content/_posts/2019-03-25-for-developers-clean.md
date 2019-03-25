@@ -126,7 +126,6 @@ social:
 <pre><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">For longer format text based fields, you may want to provide a scalable textarea in your form. To provide a text area instead of a string, use the key <code>content</code> or append &lsquo;_content&rsquo; &lsquo;_body&rsquo; &lsquo;_textarea&rsquo; to your key (e.g. header_color: "" ). Selections are returned as six character hex values. <code>
 <br />  - - -
   subtitle_body:
-
   - - -<br />
 </code></span> <img src="https://houndstootheditor.co/upload/text-area-houndstooth.png" /></span></pre>
 <h2>&nbsp;</h2>
