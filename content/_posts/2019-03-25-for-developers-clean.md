@@ -86,12 +86,12 @@ social:
   - - -<br />
 </code></span> <img src="https://lh6.googleusercontent.com/bP_wI_hYaUOoxopXXvRYp5OaskXjDCBA1dqgUFg7P8tnCUUJCKpBP2UBErnTSe8tdg7FltOoapIRt2VdyPOFsziULC7qn2pwk_NEtW-Yrn2z3QH6Sniz0Bfi-nku7Wmyjsy9jJEq" /></span></pre>
 <h4><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Boolean values:</strong></span></h4>
-<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Adding a value of <code>true</code> or <code>false</code> following the key in the yaml will produce a checkbox. <code>
-  - - -
+<pre><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Adding a value of <code>true</code> or <code>false</code> following the key in the yaml will produce a checkbox. <code>
+<br />  - - -
   pattern: false
   parallax: true
-  - - -
-</code></span> <img src="https://lh4.googleusercontent.com/39WbGS2YUqd3eisHbom8aD_wo21STyx1JiPW-tmKxbqyXncgnFFOe1n3p1vDbv-MKgk30L1hJGG0DAWS8SHwcrXx6NC6N6JH_ajUC_SIZbSnG5R9TSjCJhCwcWttwbqwzDjrxeQF" /></span></p>
+  - - -<br />
+</code></span> <img src="https://lh4.googleusercontent.com/39WbGS2YUqd3eisHbom8aD_wo21STyx1JiPW-tmKxbqyXncgnFFOe1n3p1vDbv-MKgk30L1hJGG0DAWS8SHwcrXx6NC6N6JH_ajUC_SIZbSnG5R9TSjCJhCwcWttwbqwzDjrxeQF" /></span></pre>
 <h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Date entry:</strong></span></h4>
 <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Using a key of <code>date:</code>, or appending <code>_on&rsquo;</code> to the end of a key will add a datepicker to the form. Additionally, using <code>date:</code> as a key value will add a time-stamp entry field. Using <code>_on</code> alone will produce the datepicker only (e.g. registered_on: "" ). <code>
   - - -
