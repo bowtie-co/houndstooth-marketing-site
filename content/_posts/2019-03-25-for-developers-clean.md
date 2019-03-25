@@ -30,7 +30,7 @@ social:
 <h2><span style="font-family: arial, helvetica, sans-serif;"><strong>How it Works</strong></span></h2>
 <hr />
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Houndstooth will detect any valid collection defined in your site <code>_config.yml</code> file and make it editable from your Houndstooth dashboard. Markdown files can be modified using an intuitive markdown editor. Or, you can use the collection editor to create and edit templated content using a form-based interface. Changes made in your browser are saved as git commits, and will trigger a new site build on the Houndstooth server, making it easy to collaborate with less technical users while maintaining a git workflow.</span></p>
-<h4><span style="font-family: arial, helvetica, sans-serif;"><strong>Content Editor</strong></span></h4>
+<h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Content Editor</strong></span></h4>
 <p><span style="font-family: arial, helvetica, sans-serif;"><img src="https://raw.githubusercontent.com/bowtie-co/houndstooth-marketing-site/master/upload/Screen%20Shot%202019-02-08%20at%203.26.23%20PM.png" /></span></p>
 <h2><span style="font-family: arial, helvetica, sans-serif;"><strong>Getting Started:</strong></span></h2>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">In order to use this feature, your site must be made with Jekyll and use Jekyll collection objects (including the default Jekyll Posts and Drafts collections).</span></p>
