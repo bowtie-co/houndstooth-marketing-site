@@ -46,11 +46,11 @@ social:
       output: true
     services:
       output: false<br />
-</code> Once a collection has been defined, it will appear in the Houndstooth dashboard. Houndstooth will respect and recognize custom collection directory locations if a <code>collection_dir:</code> is set in your <code>config_yml.</code></span></pre>
+</code> Once a collection has been defined, it will appear in the Houndstooth dashboard. Houndstooth will respect and recognize custom collection directory locations if a <code>collection_dir:</code> is set in your <code>config_yml .</code></span></pre>
 <h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Step 2: Set up the form defaults</strong></span></h4>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Building a custom form for content or post front matter is easy. The collection editor will generate a dynamic form from a <code>_fields.md</code> file in the root of the collection. Entry type and defaults are specified in yaml front matter. You can configure the form for strings, dates, timestamps, file uploads, color pickers, and more.</span></p>
 <h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Example '_fields.md' File</strong></span></h4>
-<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><code>
+<pre><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><code>
   - - -
   name: null
   members_only: true
@@ -60,8 +60,8 @@ social:
   featured_img_path:
   header_color:
   - - -
-  Add text or liquid includes here.
-</code></span></p>
+  Add text or liquid includes here.<br />
+</code></span></pre>
 <h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Generated Form:</strong></span></h4>
 <p><span style="font-family: arial, helvetica, sans-serif;"><img src="https://lh5.googleusercontent.com/nK4iOVp4bx7Te7b0chKA5r_nP08ykKy807lstG34odreJ8yp4SGCTPYA7SX1gr2VOtPAgqMx4pfVE-LazUvL9MwfMrnY1CsixCZUvS_nqkaBddi3DcEfeWyR_ByCEVti33nSHgxF" /> <span style="font-size: 12pt;">Each form field is defined from a key/value pair in the front matter of the <code>_fields.md</code> file. Read on for a full list of options.</span></span></p>
 <h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Step 3. Provide Access</strong></span></h4>
