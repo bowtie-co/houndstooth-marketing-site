@@ -78,13 +78,13 @@ social:
   - - -<br />
 </code></span> <br /><img src="https://lh6.googleusercontent.com/duJtRamYxxKo5ANa3_FgESbtWySaWMCMCXRFdao2mbq413U8pEIClqbwAHW8fTJ754jPiMU3qUEI-mC-cyD61yANlI_D2hbY4COR8pfzG3erUhBfY42wZ3b7nF2BhHI03mZRqsAC" /></span></pre>
 <h4><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Array:</strong></span></h4>
-<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">To produce an editable array of strings, simply nest the variables in your front matter as show below. This will output an editable list of variables in the form: <code>
-  - - -
+<pre><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">To produce an editable array of strings, simply nest the variables in your front matter as show below. This will output an editable list of variables in the form: <code>
+<br />  - - -
   categories:
     - Hello World
     - BowTie
-  - - -
-</code></span> <img src="https://lh6.googleusercontent.com/bP_wI_hYaUOoxopXXvRYp5OaskXjDCBA1dqgUFg7P8tnCUUJCKpBP2UBErnTSe8tdg7FltOoapIRt2VdyPOFsziULC7qn2pwk_NEtW-Yrn2z3QH6Sniz0Bfi-nku7Wmyjsy9jJEq" /></span></p>
+  - - -<br />
+</code></span> <img src="https://lh6.googleusercontent.com/bP_wI_hYaUOoxopXXvRYp5OaskXjDCBA1dqgUFg7P8tnCUUJCKpBP2UBErnTSe8tdg7FltOoapIRt2VdyPOFsziULC7qn2pwk_NEtW-Yrn2z3QH6Sniz0Bfi-nku7Wmyjsy9jJEq" /></span></pre>
 <h4><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Boolean values:</strong></span></h4>
 <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Adding a value of <code>true</code> or <code>false</code> following the key in the yaml will produce a checkbox. <code>
   - - -
