@@ -115,11 +115,13 @@ social:
 </code> Image files will generate a preview:</span> <br /><br /><img src="https://lh3.googleusercontent.com/P2iXI-RDHUCwCj4L906oFBL7O8pQO8k8Ke3c6aKWBqcrAMsT-UH4pcIqWnPUTgNxnkYxe5T91AeRAhg2i2hvswKgq6CND8jyrFa4e2CzXmqvMbNuNmnh1GEXMVO8NJsQZKaXy57f" /></span></pre>
 <h4>&nbsp;</h4>
 <h4><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Color picker:</strong></span></h4>
-<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">To provide a color picker interface in your form append <code>_color:</code> to the key (e.g. header_color: "" ). Selections are returned as six character hex values. <code>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">To provide a color picker interface in your form append <code>_color:</code> to the key (e.g. header_color: "" ). Selections are returned as six character hex values. </span></span></p>
+<pre><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;"><code>
   - - -
   section_color:
-  - - -
-</code></span> <img src="https://lh4.googleusercontent.com/d1HhzU5x5E9UrcAS9wnOCkOt9HvFysvfnxmMbsH3juiuA6SvlujiSb3JUuIUahHHMO55dMN3MPRsjT9VuFi1vCBT1bJahH3dxRu3YOJgiQKz0Y0kYOLZqApa6NWUeX-gEXdwVp1o" /></span></p>
+  - - -<br /><br />
+</code></span> <img src="https://lh4.googleusercontent.com/d1HhzU5x5E9UrcAS9wnOCkOt9HvFysvfnxmMbsH3juiuA6SvlujiSb3JUuIUahHHMO55dMN3MPRsjT9VuFi1vCBT1bJahH3dxRu3YOJgiQKz0Y0kYOLZqApa6NWUeX-gEXdwVp1o" /></span></pre>
+<h4>&nbsp;</h4>
 <h4><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Text Areas:</strong></span></h4>
 <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">For longer format text based fields, you may want to provide a scalable textarea in your form. To provide a text area instead of a string, use the key <code>content</code> or append &lsquo;_content&rsquo; &lsquo;_body&rsquo; &lsquo;_textarea&rsquo; to your key (e.g. header_color: "" ). Selections are returned as six character hex values. <code>
   - - -
