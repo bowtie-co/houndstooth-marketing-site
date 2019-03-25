@@ -26,12 +26,15 @@ social:
   img_path: /upload/image/png/1553544729906_img_path_Houndstooth_markdown.png
 
 ---
-<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Houndstooth is a web editor for your Github project. </span></p>
-<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">It allows you to create, update, or remove content on your github repo site from any browser. It has two modes: a structured content editor, and a file editor. </span></p>
-<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">The content editor is designed for use with <a href="https://jekyllrb.com/">Jekyll</a>. It's ideal for content that changes often, marketing copy, blog posts, and content with a similar format that is frequently repeated. The file editor allows for more advanced formatting with HTML or Markdown. </span></p>
-<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Similar to other Jekyll collection editors, Houndstooth uses collections to make it easy for web developers to customize the editing interface for clients and non-technical collaborators. </span></p>
-<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">This guide will show you how to do structure your Jekyll project for use with the Content Editor, and access the File Editor.</span></p>
-<h2><span style="font-family: arial, helvetica, sans-serif;"><strong>How it Works</strong></span></h2>
+<div style="font-family: arial, helvetica, sans-serif; line-height:2">
+<div style="font-size: 12pt;">
+<p><span>Houndstooth is a web editor for your Github project. </span></p>
+<p><span>It allows you to create, update, or remove content on your github repo site from any browser. It has two modes: a structured content editor, and a file editor. </span></p>
+<p><span>The content editor is designed for use with <a href="https://jekyllrb.com/">Jekyll</a>. It's ideal for content that changes often, marketing copy, blog posts, and content with a similar format that is frequently repeated. The file editor allows for more advanced formatting with HTML or Markdown. </span></p>
+<p><span>Similar to other Jekyll collection editors, Houndstooth uses collections to make it easy for web developers to customize the editing interface for clients and non-technical collaborators. </span></p>
+<p><span>This guide will show you how to do structure your Jekyll project for use with the Content Editor, and access the File Editor.</span></p>
+</div>
+<h2><span><strong>How it Works</strong></span></h2>
 <hr />
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Houndstooth will detect any valid collection defined in your site <code>_config.yml</code> file and make it editable from your Houndstooth dashboard. Markdown files can be modified using an intuitive markdown editor. Or, you can use the collection editor to create and edit templated content using a form-based interface. </span></p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Changes made in your browser are saved as git commits, and will trigger a new site build on the Houndstooth server, making it easy to collaborate with less technical users while maintaining a git workflow.</span></p>
@@ -142,3 +145,5 @@ social:
 <p><img style="font-family: arial, helvetica, sans-serif;" src="https://houndstootheditor.co/upload/making-commit-houndstooth.png" /></p>
 <h2><span style="font-family: arial, helvetica, sans-serif;"><strong>Working Locally</strong></span></h2>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Additionally, you can configure your website to use Houndstooth locally using the editor of your choice. Simply clone your repo, add the appropriate <code>_fields.md</code> files and key variables, and push commits via git. Once the remote updates, Houndstooth will load the collections as configured.</span></p>
+
+</div>
