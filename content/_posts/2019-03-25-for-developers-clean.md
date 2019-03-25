@@ -38,7 +38,7 @@ social:
 <h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Content Editor</strong></span></h4>
 <p><span style="font-family: arial, helvetica, sans-serif;"><img src="https://raw.githubusercontent.com/bowtie-co/houndstooth-marketing-site/master/upload/Screen%20Shot%202019-02-08%20at%203.26.23%20PM.png" /></span></p>
 <h2><span style="font-family: arial, helvetica, sans-serif;"><strong>Getting Started:</strong></span></h2>
-<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">In order to use this feature, your site must be made with Jekyll and use Jekyll collection objects (including the default Jekyll Posts and Drafts collections).</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">In order to use this feature, your site must be made with Jekyll and use Jekyll collection objects (including the default Jekyll <em>Posts</em> and <em>Drafts</em> collections).</span></p>
 <h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Step 1: Defining a Collection</strong></span></h4>
 <pre><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">To define a collection, include it in your <code>_config.yml</code> as shown below. For more information on Jekyll collections, see their docs. <code>
 <br />  collections:
