@@ -71,12 +71,12 @@ social:
 <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Any text you enter as a value in the <code>_fields.md</code> file will be used as a default. We recommend wrapping text in quotes (e.g. "Jack Dorsey"). A blank value, or the use of 'null' will render the option null. </span></span></p>
 <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Keys unique to a collection item and not present in the <code>fields.md</code> <em>will only appear in new items cloned from the item containing the unique values. </em></span></span></p>
 <h4><strong><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Strings:</span></span></strong></h4>
-<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;"> Most key/value pairs will render simple string variables you can use in your templates (e.g. name: "value" ). This will produce a text input in your form: <code>
-  - - -
+<pre><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;"> Most key/value pairs will render simple string variables you can use in your templates (e.g. name: "value" ). This will produce a text input in your form: <code>
+<br />  - - -
   name: "Jack Dorsey"
   address: null
-  - - -
-</code></span> <img src="https://lh6.googleusercontent.com/duJtRamYxxKo5ANa3_FgESbtWySaWMCMCXRFdao2mbq413U8pEIClqbwAHW8fTJ754jPiMU3qUEI-mC-cyD61yANlI_D2hbY4COR8pfzG3erUhBfY42wZ3b7nF2BhHI03mZRqsAC" /></span></p>
+  - - -<br />
+</code></span> <br /><img src="https://lh6.googleusercontent.com/duJtRamYxxKo5ANa3_FgESbtWySaWMCMCXRFdao2mbq413U8pEIClqbwAHW8fTJ754jPiMU3qUEI-mC-cyD61yANlI_D2hbY4COR8pfzG3erUhBfY42wZ3b7nF2BhHI03mZRqsAC" /></span></pre>
 <h4><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Array:</strong></span></h4>
 <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">To produce an editable array of strings, simply nest the variables in your front matter as show below. This will output an editable list of variables in the form: <code>
   - - -
