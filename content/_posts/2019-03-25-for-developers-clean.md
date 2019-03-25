@@ -63,7 +63,8 @@ social:
   Add text or liquid includes here.<br />
 </code></span></pre>
 <h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Generated Form:</strong></span></h4>
-<p><span style="font-family: arial, helvetica, sans-serif;"><img src="https://lh5.googleusercontent.com/nK4iOVp4bx7Te7b0chKA5r_nP08ykKy807lstG34odreJ8yp4SGCTPYA7SX1gr2VOtPAgqMx4pfVE-LazUvL9MwfMrnY1CsixCZUvS_nqkaBddi3DcEfeWyR_ByCEVti33nSHgxF" /> <span style="font-size: 12pt;">Each form field is defined from a key/value pair in the front matter of the <code>_fields.md</code> file. Read on for a full list of options.</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><img src="https://lh5.googleusercontent.com/nK4iOVp4bx7Te7b0chKA5r_nP08ykKy807lstG34odreJ8yp4SGCTPYA7SX1gr2VOtPAgqMx4pfVE-LazUvL9MwfMrnY1CsixCZUvS_nqkaBddi3DcEfeWyR_ByCEVti33nSHgxF" /> </span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Each form field is defined from a key/value pair in the front matter of the <code>_fields.md</code> file. Read on for a full list of options.</span></span></p>
 <h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Step 3. Provide Access</strong></span></h4>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">If you are providing access to a client or collaborator, please add that person with write access on your GitHub repo and then visit the &ldquo;Users&rdquo; page found on the left sidebar to view the users and access type.</span></p>
 <h2><span style="font-family: arial, helvetica, sans-serif;"><strong>Field conventions:</strong></span></h2>
