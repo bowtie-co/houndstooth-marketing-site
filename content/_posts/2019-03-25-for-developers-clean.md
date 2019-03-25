@@ -92,18 +92,21 @@ social:
   parallax: true
   - - -<br />
 </code></span> <img src="https://lh4.googleusercontent.com/39WbGS2YUqd3eisHbom8aD_wo21STyx1JiPW-tmKxbqyXncgnFFOe1n3p1vDbv-MKgk30L1hJGG0DAWS8SHwcrXx6NC6N6JH_ajUC_SIZbSnG5R9TSjCJhCwcWttwbqwzDjrxeQF" /></span></pre>
+<h4>&nbsp;</h4>
 <h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Date entry:</strong></span></h4>
 <pre><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Using a key of <code>date:</code>, or appending <code>_on</code> to the end of a key will add a datepicker to the form. Additionally, using <code>date:</code> as a key value will add a time-stamp entry field. Using <code>_on</code> alone will produce the datepicker only (e.g. registered_on: "" ). <code>
 <br />  - - -
   date:
   - - -<br />
 </code> </span><img src="https://houndstootheditor.co/upload/Screen Shot 2019-02-14 at 10.35.36 AM.png" /></span></pre>
+<h4>&nbsp;</h4>
 <h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Time:</strong></span></h4>
-<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Appending <code>_at:</code> to the end of a key will create a time selector (e.g. starting_at: ""). <code>
-  - - -
+<pre><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Appending <code>_at:</code> to the end of a key will create a time selector (e.g. starting_at: ""). <code>
+<br />  - - -
   start-time_at:
-  - - -
-</code></span> <img src="https://houndstootheditor.co/upload/Screen Shot 2019-02-14 at 10.35.42 AM.png" /></span></p>
+  - - -<br /><br />
+</code></span> <img src="https://houndstootheditor.co/upload/Screen Shot 2019-02-14 at 10.35.42 AM.png" /></span></pre>
+<h4>&nbsp;</h4>
 <h4><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>File uploads:</strong></span></h4>
 <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">If you want to produce a file upload interface, append &lsquo;_path&rsquo; to the key value (e.g. featured_img_path: "" ). This will provide a file upload interface. Most image files will preview for your end user once uploaded. Files too large to preview (over 2MB), and nonimage files will render an icon. <code>
   - - -
