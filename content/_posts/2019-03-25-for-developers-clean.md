@@ -108,11 +108,12 @@ social:
 </code></span> <img src="https://houndstootheditor.co/upload/Screen Shot 2019-02-14 at 10.35.42 AM.png" /></span></pre>
 <h4>&nbsp;</h4>
 <h4><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>File uploads:</strong></span></h4>
-<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">If you want to produce a file upload interface, append &lsquo;_path&rsquo; to the key value (e.g. featured_img_path: "" ). This will provide a file upload interface. Most image files will preview for your end user once uploaded. Files too large to preview (over 2MB), and nonimage files will render an icon. <code>
-  - - -
+<pre><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">If you want to produce a file upload interface, append &lsquo;_path&rsquo; to the key value (e.g. featured_img_path: "" ). This will provide a file upload interface. Most image files will preview for your end user once uploaded. Files too large to preview (over 2MB), and nonimage files will render an icon. <code>
+<br />  - - -
   avatar_path:
-  - - -
-</code> Image files will generate a preview:</span> <img src="https://lh3.googleusercontent.com/P2iXI-RDHUCwCj4L906oFBL7O8pQO8k8Ke3c6aKWBqcrAMsT-UH4pcIqWnPUTgNxnkYxe5T91AeRAhg2i2hvswKgq6CND8jyrFa4e2CzXmqvMbNuNmnh1GEXMVO8NJsQZKaXy57f" /></span></p>
+  - - -<br />
+</code> Image files will generate a preview:</span> <br /><br /><img src="https://lh3.googleusercontent.com/P2iXI-RDHUCwCj4L906oFBL7O8pQO8k8Ke3c6aKWBqcrAMsT-UH4pcIqWnPUTgNxnkYxe5T91AeRAhg2i2hvswKgq6CND8jyrFa4e2CzXmqvMbNuNmnh1GEXMVO8NJsQZKaXy57f" /></span></pre>
+<h4>&nbsp;</h4>
 <h4><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Color picker:</strong></span></h4>
 <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">To provide a color picker interface in your form append <code>_color:</code> to the key (e.g. header_color: "" ). Selections are returned as six character hex values. <code>
   - - -
