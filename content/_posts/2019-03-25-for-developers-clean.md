@@ -45,7 +45,7 @@ social:
     <p>In order to use this feature, your site must be made with Jekyll and use Jekyll collection objects (including the default Jekyll <em>Posts</em> and <em>Drafts</em> collections).</p>
     <h4><strong>Step 1: Defining a Collection</strong></h4>
     To define a collection, include it in your <code>_config.yml</code> as shown below. For more information on Jekyll collections, <a href="https://jekyllrb.com/docs/collections/">see their docs</a>.
-    <div>
+    <pre>
       <code>
         collections:
           lander-1-col:
@@ -53,7 +53,7 @@ social:
           services:
           output: false
       </code>
-    </div>
+    </pre>
     Once a collection has been defined, it will appear in the Houndstooth dashboard. Houndstooth will respect and recognize custom collection directory locations if a <code>collection_dir:</code> is set in your <code>config_yml .</code>
     <h4><strong>Step 2: Set up the form defaults</strong></h4>
     <p>Building a custom form for content or post front matter is easy. The collection editor will generate a dynamic form from a <code>_fields.md</code> file in the root of the collection. Entry type and defaults are specified in yaml front matter. You can configure the form for strings, dates, timestamps, file uploads, color pickers, and more.</p>
