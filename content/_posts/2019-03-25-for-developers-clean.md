@@ -123,14 +123,16 @@ social:
 </code></span> <img src="https://lh4.googleusercontent.com/d1HhzU5x5E9UrcAS9wnOCkOt9HvFysvfnxmMbsH3juiuA6SvlujiSb3JUuIUahHHMO55dMN3MPRsjT9VuFi1vCBT1bJahH3dxRu3YOJgiQKz0Y0kYOLZqApa6NWUeX-gEXdwVp1o" /></span></pre>
 <h4>&nbsp;</h4>
 <h4><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Text Areas:</strong></span></h4>
-<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">For longer format text based fields, you may want to provide a scalable textarea in your form. To provide a text area instead of a string, use the key <code>content</code> or append &lsquo;_content&rsquo; &lsquo;_body&rsquo; &lsquo;_textarea&rsquo; to your key (e.g. header_color: "" ). Selections are returned as six character hex values. <code>
-  - - -
+<pre><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">For longer format text based fields, you may want to provide a scalable textarea in your form. To provide a text area instead of a string, use the key <code>content</code> or append &lsquo;_content&rsquo; &lsquo;_body&rsquo; &lsquo;_textarea&rsquo; to your key (e.g. header_color: "" ). Selections are returned as six character hex values. <code>
+<br />  - - -
   subtitle_body:
 
-  - - -
-</code></span> <img src="https://houndstootheditor.co/upload/text-area-houndstooth.png" /></span></p>
+  - - -<br />
+</code></span> <img src="https://houndstootheditor.co/upload/text-area-houndstooth.png" /></span></pre>
+<h2>&nbsp;</h2>
 <h2><span style="font-family: arial, helvetica, sans-serif;"><strong>Other Editing Options:</strong></span></h2>
-<h4><span style="font-family: arial, helvetica, sans-serif;"><strong>File Editor</strong></span></h4>
+<hr />
+<h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>File Editor</strong></span></h4>
 <p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">For more advanced cloud editing, you can leverage the buit in File Editor interface to access and modify every file in your repository. The file editor will recognize formatting using HTML or Markdown, while the collections editor will not.</span> <img src="https://houndstootheditor.co/upload/file-tree.png" /> <span style="font-size: 12pt;">The File Editor is built using Ace Editor. The workflow is a simplified git workflow. Each edit will be staged, until commited to the repo using the Commit button. Updated (saved) files will be highlighted with a red indicator. Additionally, the 'Commit Changes' button will appear and show the number of staged edits to be committed.</span> <img src="https://houndstootheditor.co/upload/commit-button.png" /> <span style="font-size: 12pt;">You can also leverage the File Editor to drag and drop images into your Github repository. Please note: these files will post to GH via the API, so they do not respect LFS if enabled.</span> <img src="https://houndstootheditor.co/upload/making-commit-houndstooth.png" /></span></p>
 <h2><span style="font-family: arial, helvetica, sans-serif;"><strong>Working Locally</strong></span></h2>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Additionally, you can configure your website to use Houndstooth locally using the editor of your choice. Simply clone your repo, add the appropriate <code>_fields.md</code> files and key variables, and push commits via git. Once the remote updates, Houndstooth will load the collections as configured.</span></p>
