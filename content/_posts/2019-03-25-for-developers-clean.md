@@ -68,7 +68,10 @@ social:
 <h4><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Step 3. Provide Access</strong></span></h4>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">If you are providing access to a client or collaborator, please add that person with write access on your GitHub repo and then visit the &ldquo;Users&rdquo; page found on the left sidebar to view the users and access type.</span></p>
 <h2><span style="font-family: arial, helvetica, sans-serif;"><strong>Field conventions:</strong></span></h2>
-<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Any text you enter as a value in the <code>_fields.md</code> file will be used as a default. We recommend wrapping text in quotes (e.g. "Jack Dorsey"). A blank value, or the use of 'null' will render the option null. Keys unique to a collection item and not present in the <code>fields.md</code> will only appear in new items cloned from the item containing the unique values. Strings: Most key/value pairs will render simple string variables you can use in your templates (e.g. name: "value" ). This will produce a text input in your form: <code>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Any text you enter as a value in the <code>_fields.md</code> file will be used as a default. We recommend wrapping text in quotes (e.g. "Jack Dorsey"). A blank value, or the use of 'null' will render the option null. </span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Keys unique to a collection item and not present in the <code>fields.md</code> <em>will only appear in new items cloned from the item containing the unique values. </em></span></span></p>
+<h4><strong><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;">Strings:</span></span></strong></h4>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12pt;"> Most key/value pairs will render simple string variables you can use in your templates (e.g. name: "value" ). This will produce a text input in your form: <code>
   - - -
   name: "Jack Dorsey"
   address: null
