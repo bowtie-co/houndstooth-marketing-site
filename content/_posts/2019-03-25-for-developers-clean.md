@@ -26,6 +26,7 @@ social:
   img_path: /upload/image/png/1553544729906_img_path_Houndstooth_markdown.png
 
 ---
+
 <div class="docs-container" style="font-family: Menlo !important; line-height: 2; font-size: 12pt; font-weight: 400; color: #24292e;">
   <p>Houndstooth is a web editor for your Github project.</p>
   <p>It allows you to create, update, or remove content on your github repo site from any browser. It has two modes: a structured content editor, and a file editor.</p>
@@ -162,3 +163,4 @@ social:
   <h2><strong>Working Locally</strong></h2>
   <p>Additionally, you can configure your website to use Houndstooth locally using the editor of your choice. Simply clone your repo, add the appropriate <code>_fields.md</code> files and key variables, and push commits via git. Once the remote updates, Houndstooth will load the collections as configured.</p>
 </div>
+
