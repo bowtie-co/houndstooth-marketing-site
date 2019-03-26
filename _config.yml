@@ -23,7 +23,7 @@ mailchimp_server: us5
 mailchimp_apikey: 85cc3923dcbe51832fa566843
 mailchimp_listid: d4c3230a3a
 
-google_analytics_id:  "UA-112855270-1" # Your google analytics ID (e.g. 'UA-XXXXXXXX-X')
+google_analytics_id:  "UA-112855270-3" # Your google analytics ID (e.g. 'UA-XXXXXXXX-X')
 google_tag_manager:  "GTM-TK6JBBR" # Your google analytics ID (e.g. 'UA-XXXXXXXX-X')
 google_api_key: 'AIzaSyDJY4oywMOWRYa8btinlU2LCOzQ8vX13go' # Your Google API key for Maps
 
