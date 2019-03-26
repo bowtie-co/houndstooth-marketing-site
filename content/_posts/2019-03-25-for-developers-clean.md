@@ -28,7 +28,7 @@ social:
 ---
 
 
-<div class="docs-container" style="font-family: Menlo !important; line-height: 2; font-size: 12pt; font-weight: 400; color: #24292e;">
+<div class="docs-container" style="font-family: Menlo !important; line-height: 2; font-size: 12px; font-weight: 400; color: #24292e;">
   <p>Houndstooth is a web editor for your Github project.</p>
   <p>It allows you to create, update, or remove content on your github repo site from any browser. It has two modes: a structured content editor, and a file editor.</p>
   <p>The content editor is designed for use with <a href="https://jekyllrb.com/">Jekyll</a>. It's ideal for content that changes often, marketing copy, blog posts, and content with a similar format that is frequently repeated. The file editor allows for more advanced formatting with HTML or Markdown.</p>
