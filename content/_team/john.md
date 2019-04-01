@@ -1,7 +1,7 @@
 ---
 name: john
 displayName: John Doe
-avatar_path: /upload/image/png/1554136365536_avatar_path_boldbetties.png
+avatar_path: /upload/image/jpeg/1554136389662_avatar_path_rsz_head_shot.jpg
 gravatar: 1985af848d639efd74c6af48f242cfa8
 email: null
 web: null
@@ -14,5 +14,7 @@ linkedin: null
 youtube: null
 
 ---
+
+
 
 
