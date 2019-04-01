@@ -6,7 +6,7 @@ _date: 02/20/2019
 posted_at: null
 permalink: /docs/
 masthead:
-  img_path: null
+  img_path: /upload/image/png/1554136304256_img_path_ScreenShot2019-03-25at1.20.11PM.png
   pat_path: /assets/images/backgrounds/houndtooth-pat-dark.png
   overlay: true
 categories: []
@@ -26,6 +26,7 @@ social:
   img_path: /upload/image/png/1553544729906_img_path_Houndstooth_markdown.png
 
 ---
+
 
 <p>Houndstooth is a web editor for your Github project.</p>
 <p>It allows you to create, update, or remove content on your github repo site from any browser. It has two modes: a structured content editor, and a file editor.</p>
