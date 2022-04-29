@@ -1,0 +1,198 @@
+I"
+<section class="hero image-right">
+  
+
+
+
+
+  <div class="media-wrap">
+    <div class="media-tint" style="background:rgba(0,0,0,0.0);"></div>
+  </div>
+
+
+  <a name=""></a>
+  <div class="container">
+    
+    <div class="section-header">
+    
+      <div class="header-wrapper row d-flex justify-content-start align-items-center">
+        
+          
+          <div class="text-wrapper col col-sm-4">
+            <h1 class="title">A Free CMS for Jekyll and Github</h1>
+          
+          
+            <h3 class="subtitle">Houndstooth gives content editors a simple interface to publish changes to static sites hosted on Github.</h3>
+          
+
+          
+            <br />
+            <div class="cta">
+              
+              
+              <a href="https://houndstooth.cloud/login">
+                <button class="btn btn-info">Get Started</button>
+              </a>
+              
+              
+            </div>
+          
+          </div>
+
+        
+        <div class="img-wrapper col col-sm-8">
+          <img class="img-fluid img" alt="" src="/upload/image/png/1550002897863_img_path_Houndstooth Mockup Laptop.png" />
+        </div>
+      </div>
+    
+    </div><!-- end section header -->
+    
+
+    <div class="content section-content">
+      
+    </div>
+
+    
+  </div>
+</section>
+
+<section id="features" class="">
+  
+
+
+
+
+  <div class="media-wrap">
+    <div class="media-tint" style="background:rgba(0,0,0,0.0);"></div>
+  </div>
+
+
+  <a name="features"></a>
+  <div class="container">
+    
+
+    <div class="content section-content">
+      <div class="row features clearfix">
+  
+  
+    
+    
+    <div class="feature col-sm-4">
+        <div class="inner outline d-flex align-items-start justify-content-start">
+        <div style="margin-right:10px;">
+        
+          <i class="fa fa-laptop" style="color: #D0021B;"></i>
+        
+        </div>
+        <div class="">
+          <h3 class="title">Seamlessly syncs with your GitHub Repositories</h3>
+          <h4 class="sub-title"></h4>
+          <p>Houndstooth uses the GitHub API to connect directly to your project so content editors can commit changes without a local editor.</p>
+        </div>
+      </div>
+    </div>
+  
+    
+    
+    <div class="feature col-sm-4">
+        <div class="inner outline d-flex align-items-start justify-content-start">
+        <div style="margin-right:10px;">
+        
+          <i class="fa fa-edit" style="color: #D0021B;"></i>
+        
+        </div>
+        <div class="">
+          <h3 class="title">Auto detects collections for Jekyll sites</h3>
+          <h4 class="sub-title"></h4>
+          <p>Houndstooth exposes Jekyll collection content in a customizable UI, defined by the web developer.</p>
+        </div>
+      </div>
+    </div>
+  
+    
+    
+    <div class="feature col-sm-4">
+        <div class="inner outline d-flex align-items-start justify-content-start">
+        <div style="margin-right:10px;">
+        
+          <i class="fa fa-code" style="color: #D0021B;"></i>
+        
+        </div>
+        <div class="">
+          <h3 class="title">Advanced editing is easy with the online File Editor</h3>
+          <h4 class="sub-title"></h4>
+          <p>Our File Editor allows you to edit any code in your repo, then stage and commit changes to GitHub.</p>
+        </div>
+      </div>
+    </div>
+  
+</div>
+
+
+    </div>
+
+    
+      
+        <div class="cta text-center">
+          
+          
+          
+        </div>
+      
+    
+  </div>
+</section>
+
+<section id="why" class="alt">
+  
+
+
+
+
+  <div class="media-wrap">
+    <div class="media-tint" style="background:rgba(0,0,0,0.0);"></div>
+  </div>
+
+
+  <a name="why"></a>
+  <div class="container box">
+    
+    <div class="section-header">
+    
+      
+        
+        <h2 class="title text-center"><span class="underlined">Who is this for?</span></h2>
+        
+      
+      
+    </div><!-- end section header -->
+    
+
+    <div class="content section-content">
+      <ul>
+<li>Anyone who wants an easy CMS for their Jekyll website.</li>
+<li>Developers who want to provide their clients with an easy way to manage their site.</li>
+<li>Agencies who use Jekyll or similar static site generators.</li>
+<li>Marketers who want to be able to easily edit Jekyll site content.</li>
+<li>Anyone looking for a web based editor to modify content in their GitHub repositories.</li>
+</ul>
+
+    </div>
+
+    
+      
+        <div class="cta text-center">
+          
+          
+          <a href="https://houndstooth.cloud/login">
+            <button class="btn btn-info">Get Started</button>
+          </a>
+          
+          
+        </div>
+      
+    
+  </div>
+</section>
+
+:ET
