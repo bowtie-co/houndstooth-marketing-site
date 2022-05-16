@@ -177,7 +177,7 @@ section.grey{
 
 
 #footer {
-  background-color:$footer;
+  background-color: $footer;
   padding: 15px 0 0;
   color:$footer-font-color;
   border-top: $footer-border !important;
@@ -286,9 +286,11 @@ section.grey{
   border-color:$default;
 }
 
-.btn-default:hover,.btn-default:active,.btn-default:focus,  {
-  background-color:$default-hover;
-  border-color:$default-hover;
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus {
+  background-color: $default-hover;
+  border-color: $default-hover;
 }
 
 .btn-info, a .btn-info {
@@ -463,9 +465,9 @@ section.grey{
   letter-spacing: 1.4px;
 }
 #features {
-	.container {
-    //max-width: 100%;
-  }
+	// .container {
+  //   //max-width: 100%;
+  // }
 	h2.title, h3.subtitle {
 		text-align: center;
 	}
